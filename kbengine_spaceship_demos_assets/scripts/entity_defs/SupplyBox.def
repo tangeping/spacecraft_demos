@@ -1,0 +1,20 @@
+<root>
+	<Interfaces>
+		<Interface>			GameObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+    <ClientMethods>
+        <onSupplyBoxDestroy>
+            <Utype>         11005               </Utype>
+            <Arg>           COLLISION_ID         </Arg>
+            <Arg>           UINT16               </Arg>
+        </onSupplyBoxDestroy>
+    </ClientMethods>
+</root>
+

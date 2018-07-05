@@ -1,0 +1,40 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<loginToSpace>
+			<Arg>		ENTITYCALL		</Arg>
+			<Arg>		POSITION3D		</Arg>
+			<Arg>		DIRECTION3D		</Arg>
+			<Arg>		SPACE_KEY		</Arg>
+		</loginToSpace>
+
+		<logoutSpace>
+			<Arg>		ENTITY_ID		</Arg>
+			<Arg>		SPACE_KEY		</Arg>
+		</logoutSpace>
+
+		<onSpaceLoseCell>
+			<Arg>		SPACE_KEY		</Arg>
+		</onSpaceLoseCell>
+
+		<onSpaceGetCell>
+			<Arg>		ENTITYCALL			</Arg>
+			<Arg>		SPACE_KEY		</Arg>
+		</onSpaceGetCell>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

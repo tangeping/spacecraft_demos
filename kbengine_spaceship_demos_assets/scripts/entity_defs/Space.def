@@ -1,0 +1,59 @@
+<root>
+
+    <Volatile>
+
+    </Volatile>
+
+	<Properties>
+		<SpaceKey>
+			<Type>			SPACE_KEY			</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>			true				</Persistent>
+		</SpaceKey>
+
+		<SpaceKeyC>
+			<Type>			SPACE_KEY			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</SpaceKeyC>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<loginToSpace>
+		<!-- 登录者的ENTITYCALL -->
+			<Arg>		ENTITYCALL		</Arg>
+			<Arg>		POSITION3D		</Arg>
+			<Arg>		DIRECTION3D		</Arg>
+		</loginToSpace>
+
+		<logoutToSpace>
+		<!-- 登出者的实体id -->
+		<Arg> ENTITY_ID </Arg>
+		</logoutToSpace>
+
+		<onEnter>
+		<!-- 进入者的ENTITYCALL -->
+		<Arg> ENTITYCALL </Arg>
+		</onEnter>
+
+		<onLeave>
+		<!-- 退出的ENTITYCALL -->
+		<Arg> ENTITY_ID </Arg>
+		</onLeave>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnter>
+		<!-- 进入者的ENTITYCALL -->
+		<Arg> ENTITYCALL </Arg>
+		</onEnter>
+
+		<onLeave>
+		<!-- 退出的ENTITYCALL -->
+		<Arg> ENTITY_ID </Arg>
+		</onLeave>
+	</CellMethods>
+
+</root>
