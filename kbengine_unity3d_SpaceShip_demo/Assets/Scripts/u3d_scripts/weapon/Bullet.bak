@@ -1,0 +1,36 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Bullet : Weapon {
+
+    [HideInInspector] float shootDistant = 0.0f;
+    
+
+
+    public override void Cast()
+    {
+        base.Cast();
+    }
+
+
+    // Update is called once per frame
+
+    void Update()
+    {
+
+        if (_attri != null)
+        {
+            shootDistant += _attri.Speed* Time.deltaTime;
+
+            //        Debug.Log("shootDistant:" + shootDistant);
+
+            transform.position += transform.forward * _attri.Speed * Time.deltaTime;
+
+            if (shootDistant > _attri.AttackDistance)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+}

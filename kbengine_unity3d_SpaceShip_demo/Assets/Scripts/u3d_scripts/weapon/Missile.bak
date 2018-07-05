@@ -1,0 +1,103 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Missile : Weapon {
+
+    [HideInInspector] float shootDistant = 0.0f;
+    [HideInInspector] float downDistant = 0.0f;
+
+    [HideInInspector] float ySpeed = 0.5f;
+    [HideInInspector] float yDistant = 0.2f; //先下沉0.2
+
+    [HideInInspector] float xSpeed = 0.5f;
+    
+    enum MISSILE_STATE
+    {
+        MISSILE_DOWN,
+        MISSILE_UP,
+        MISSILE_NORMAL
+    }
+    private MISSILE_STATE _state = MISSILE_STATE.MISSILE_DOWN;
+
+    public float DownDistant
+    {
+        get
+        {
+            return downDistant;
+        }
+
+        set
+        {
+            downDistant = value >= 0.0f ? 0.0f : (value <= -yDistant ? -yDistant : value);
+        }
+    }
+
+    private void ChangeState(MISSILE_STATE state)
+    {
+        if (_state == state)
+        {
+            return;
+        }
+
+        _state = state;
+    }
+
+    // Use this for initialization
+
+    public override void Cast()
+    {
+        base.Cast();
+    }
+
+    // Update is called once per frame
+
+    void Update ()
+    {
+        if (_attri != null)
+        {
+//            Debug.Log("_state:" + _state + ",DownDistant:" + DownDistant);
+
+            if (_state == MISSILE_STATE.MISSILE_DOWN)
+            {
+                transform.position -= transform.up * ySpeed * Time.deltaTime;
+                transform.position += transform.forward* xSpeed * Time.deltaTime;
+
+                DownDistant -= ySpeed * Time.deltaTime;
+                shootDistant += xSpeed * Time.deltaTime;
+
+                if (DownDistant == -yDistant)
+                {
+                    ChangeState(MISSILE_STATE.MISSILE_UP);
+                }
+            }
+            else if(_state == MISSILE_STATE.MISSILE_UP)
+            {
+                transform.position += transform.up * ySpeed * Time.deltaTime;
+                transform.position += transform.forward * xSpeed * Time.deltaTime;
+
+                DownDistant += ySpeed * Time.deltaTime;
+                shootDistant += xSpeed * Time.deltaTime;
+                if (DownDistant == 0)
+                {
+                    ChangeState(MISSILE_STATE.MISSILE_NORMAL);
+                }
+            }
+            else
+            {
+                shootDistant += _attri.Speed * Time.deltaTime;
+
+                transform.position += transform.forward * _attri.Speed * Time.deltaTime;
+            }
+ //           Debug.Log("Missile:" + transform.position);
+            if (shootDistant > _attri.AttackDistance)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+
+
+
+
+}
