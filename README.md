@@ -1,1 +1,2 @@
-# spacecraft_demos
+安装方法参考：https://github.com/kbengine/kbengine_unity3d_demo 
+readme中描述的服务器kbengine_demos_assets直接用kbengine_spaceship_demos_assets替代即可
