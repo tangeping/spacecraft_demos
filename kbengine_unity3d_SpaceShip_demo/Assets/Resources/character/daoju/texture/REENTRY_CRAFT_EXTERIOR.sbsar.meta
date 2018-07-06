@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: 771aaa5984a31c145b7dbc8eb17dee92
+timeCreated: 1526281328
+licenseType: Free
+SubstanceImporter:
+  externalObjects: {}
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: ESCAPE_POD_MAIN_RM
+    prototypeName: ESCAPE_POD_MAIN_RM
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs: []
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs: []
+      floats: []
+      colors: []
+    textureParameters:
+    - name: ESCAPE_POD_MAIN_RM_diffuse
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ESCAPE_POD_MAIN_RM_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ESCAPE_POD_MAIN_RM_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ESCAPE_POD_MAIN_RM_Emissive
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ESCAPE_POD_MAIN_RM_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 3248057162
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 3248057156
+    - shaderProp: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 3456564046
+    - shaderProp: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 3248057152
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 3464157724
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

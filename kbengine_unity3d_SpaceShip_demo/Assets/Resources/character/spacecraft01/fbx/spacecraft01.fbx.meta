@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 05f3fe84a78f4cc40850d0ac12a1e495
+timeCreated: 1524641171
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint10
+    100004: joint11
+    100006: joint11 1
+    100008: joint12
+    100010: joint13
+    100012: joint14
+    100014: joint14 1
+    100016: joint14 10
+    100018: joint14 11
+    100020: joint14 12
+    100022: joint14 13
+    100024: joint14 2
+    100026: joint14 3
+    100028: joint14 4
+    100030: joint14 5
+    100032: joint14 6
+    100034: joint14 7
+    100036: joint14 8
+    100038: joint14 9
+    100040: joint15
+    100042: joint16
+    100044: joint17
+    100046: joint18
+    100048: joint19
+    100050: joint2
+    100052: joint20
+    100054: joint21
+    100056: joint22
+    100058: joint23
+    100060: joint24
+    100062: joint25
+    100064: joint26
+    100066: joint27
+    100068: joint3
+    100070: joint5
+    100072: joint7
+    100074: joint8
+    100076: joint9
+    100078: locator1
+    100080: locator10
+    100082: locator11
+    100084: locator12
+    100086: locator13
+    100088: locator2
+    100090: locator3
+    100092: locator4
+    100094: locator5
+    100096: locator6
+    100098: locator7
+    100100: locator8
+    100102: locator9
+    100104: nurbsCircle1
+    100106: pao01
+    100108: pao010
+    100110: pao011
+    100112: pao012
+    100114: pao013
+    100116: pao02
+    100118: pao03
+    100120: pao04
+    100122: pao05
+    100124: pao06
+    100126: pao07
+    100128: pao08
+    100130: pao09
+    100132: //RootNode
+    100134: spacecraft01
+    100136: spacecraft01_body
+    100138: transform1
+    100140: locator14
+    100142: locator15
+    100144: locator16
+    400000: joint1
+    400002: joint10
+    400004: joint11
+    400006: joint11 1
+    400008: joint12
+    400010: joint13
+    400012: joint14
+    400014: joint14 1
+    400016: joint14 10
+    400018: joint14 11
+    400020: joint14 12
+    400022: joint14 13
+    400024: joint14 2
+    400026: joint14 3
+    400028: joint14 4
+    400030: joint14 5
+    400032: joint14 6
+    400034: joint14 7
+    400036: joint14 8
+    400038: joint14 9
+    400040: joint15
+    400042: joint16
+    400044: joint17
+    400046: joint18
+    400048: joint19
+    400050: joint2
+    400052: joint20
+    400054: joint21
+    400056: joint22
+    400058: joint23
+    400060: joint24
+    400062: joint25
+    400064: joint26
+    400066: joint27
+    400068: joint3
+    400070: joint5
+    400072: joint7
+    400074: joint8
+    400076: joint9
+    400078: locator1
+    400080: locator10
+    400082: locator11
+    400084: locator12
+    400086: locator13
+    400088: locator2
+    400090: locator3
+    400092: locator4
+    400094: locator5
+    400096: locator6
+    400098: locator7
+    400100: locator8
+    400102: locator9
+    400104: nurbsCircle1
+    400106: pao01
+    400108: pao010
+    400110: pao011
+    400112: pao012
+    400114: pao013
+    400116: pao02
+    400118: pao03
+    400120: pao04
+    400122: pao05
+    400124: pao06
+    400126: pao07
+    400128: pao08
+    400130: pao09
+    400132: //RootNode
+    400134: spacecraft01
+    400136: spacecraft01_body
+    400138: transform1
+    400140: locator14
+    400142: locator15
+    400144: locator16
+    2100000: lambert2
+    2300000: pao01
+    2300002: pao010
+    2300004: pao011
+    2300006: pao012
+    2300008: pao013
+    2300010: pao02
+    2300012: pao03
+    2300014: pao04
+    2300016: pao05
+    2300018: pao06
+    2300020: pao07
+    2300022: pao08
+    2300024: pao09
+    2300026: spacecraft01_body
+    3300000: pao01
+    3300002: pao010
+    3300004: pao011
+    3300006: pao012
+    3300008: pao013
+    3300010: pao02
+    3300012: pao03
+    3300014: pao04
+    3300016: pao05
+    3300018: pao06
+    3300020: pao07
+    3300022: pao08
+    3300024: pao09
+    3300026: spacecraft01_body
+    4300000: pao01
+    4300002: pao02
+    4300004: pao04
+    4300006: pao03
+    4300008: pao012
+    4300010: pao06
+    4300012: pao011
+    4300014: pao07
+    4300016: pao013
+    4300018: pao08
+    4300020: pao09
+    4300022: pao010
+    4300024: pao05
+    4300026: spacecraft01_body
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
