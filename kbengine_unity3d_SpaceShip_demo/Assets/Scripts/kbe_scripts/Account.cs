@@ -20,7 +20,6 @@
         {
             //注册事件
             Event.registerIn("reqAvatarList", this, "reqAvatarList");
-            Event.registerIn("reqCreateAvatar", this, "reqCreateAvatar");
             Event.registerIn("reqRemoveAvatar", this, "reqRemoveAvatar");
             Event.registerIn("selectAvatarGame", this, "selectAvatarGame");
 
@@ -79,12 +78,6 @@
             Dbg.DEBUG_MSG("Account::reqAvatarList");
             baseEntityCall.reqAvatarList();
         }
-        public void reqCreateAvatar(Byte roleType, string name, UInt16 level)
-        {
-            Dbg.DEBUG_MSG("Account::reqCreateAvatar: roleType=" + roleType);
-            baseEntityCall.reqCreateAvatar(roleType, name, level);
-        }
-
         public void reqRemoveAvatar(string name)
         {
             Dbg.DEBUG_MSG("Account::reqRemoveAvatar: name=" + name);

@@ -30,18 +30,6 @@ namespace KBEngine
 			sendCall(null);
 		}
 
-		public void reqCreateAvatar(Byte arg1, string arg2, UInt16 arg3)
-		{
-			Bundle pBundle = newCall("reqCreateAvatar", 0);
-			if(pBundle == null)
-				return;
-
-			bundle.writeUint8(arg1);
-			bundle.writeUnicode(arg2);
-			bundle.writeUint16(arg3);
-			sendCall(null);
-		}
-
 		public void reqRemoveAvatar(string arg1)
 		{
 			Bundle pBundle = newCall("reqRemoveAvatar", 0);

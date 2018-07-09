@@ -579,7 +579,7 @@ public class World : connectstate {
         UnityEngine.GameObject.Destroy((UnityEngine.GameObject)entity.renderObj);
         entity.renderObj = null;
 
-        KBEngine.Avatar collisioner = (KBEngine.Avatar)KBEngineApp.app.getEntity(CollisionID);
+        KBEngine.Avatar collisioner = (KBEngine.Avatar)KBEngineApp.app.findEntity(CollisionID);
         if (collisioner == null)
         {
             Debug.Log("collisioner not in your world!");
@@ -613,7 +613,7 @@ public class World : connectstate {
         UnityEngine.GameObject.Destroy((UnityEngine.GameObject)entity.renderObj);
         entity.renderObj = null;
 
-        KBEngine.Avatar collisioner = (KBEngine.Avatar)KBEngineApp.app.getEntity(CollisionID);
+        KBEngine.Avatar collisioner = (KBEngine.Avatar)KBEngineApp.app.findEntity(CollisionID);
         if (collisioner == null)
         {
             Debug.Log("collisioner not in your world!");

@@ -30,8 +30,11 @@ class Account(KBEngine.Proxy):
     def reqCreateAvatar(self, roleType, name,level):
         """
         exposed.
-        请求创建一个角色
+        客户端请求创建一个角色
         """
+        avatarinfo = TAvatarInfos()
+        avatarinfo.extend([0, "", 0, 0, TAvatarData().createFromDict({"param1" : 0, "param2" :b''})])
+
 
         if len(self.characters) >= 3:
             DEBUG_MSG("Account[%i].size = %i,reqCreateAvatar:%s. character=%s.\n" % (self.id, len(self.characters),name, self.characters))
@@ -239,6 +242,4 @@ class Account(KBEngine.Proxy):
 
         avatar.destroy()
 
-        if self.client:
-            self.client.onCreateAvatarResult(0,avatarinfo)
 

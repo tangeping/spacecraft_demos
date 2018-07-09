@@ -198,24 +198,6 @@ namespace KBEngine
 
 			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(reqAvatarList / 10001).");
 
-			List<DATATYPE_BASE> pAccount_reqCreateAvatar_args = new List<DATATYPE_BASE>();
-			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[2]);
-			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[12]);
-			pAccount_reqCreateAvatar_args.Add(EntityDef.id2datatypes[3]);
-
-			Method pAccount_reqCreateAvatar = new Method();
-			pAccount_reqCreateAvatar.name = "reqCreateAvatar";
-			pAccount_reqCreateAvatar.methodUtype = 10002;
-			pAccount_reqCreateAvatar.aliasID = -1;
-			pAccount_reqCreateAvatar.args = pAccount_reqCreateAvatar_args;
-
-			pAccountModule.methods["reqCreateAvatar"] = pAccount_reqCreateAvatar; 
-			pAccountModule.base_methods["reqCreateAvatar"] = pAccount_reqCreateAvatar;
-
-			pAccountModule.idbase_methods[pAccount_reqCreateAvatar.methodUtype] = pAccount_reqCreateAvatar;
-
-			//Dbg.DEBUG_MSG("EntityDef::initScriptModules: add(Account), method(reqCreateAvatar / 10002).");
-
 			List<DATATYPE_BASE> pAccount_reqRemoveAvatar_args = new List<DATATYPE_BASE>();
 			pAccount_reqRemoveAvatar_args.Add(EntityDef.id2datatypes[12]);
 

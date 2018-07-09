@@ -81,7 +81,7 @@
 		public string serverScriptVersion = "";
 		public string clientScriptVersion = "0.1.0";
 		public string serverProtocolMD5 = "F217117F928F68467C45B47BA31B1B8B";
-		public string serverEntitydefMD5 = "718951D3A2CEA166040EEE03887EB92E";
+		public string serverEntitydefMD5 = "13021BEE2024E35C93482BBC30719184";
 		
 		// 当前玩家的实体id与实体类别
 		public UInt64 entity_uuid = 0;
@@ -273,16 +273,7 @@
 			return null;
 		}
 
-        public Entity getEntity(Int32 entityID)
-        {
-            Entity e;
-            if (entities.TryGetValue(entityID, out e))
-                return e;
-
-            return null;
-        }
-
-        public void _closeNetwork(NetworkInterface networkInterface)
+		public void _closeNetwork(NetworkInterface networkInterface)
 		{
 			networkInterface.close();
 		}
