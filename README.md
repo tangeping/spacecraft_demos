@@ -32,7 +32,7 @@ http://www.kbengine.org
 			http://www.kbengine.org/docs/installation.html
 
 	3. 拷贝服务端资产库"kbengine_spaceship_demos_assets"到服务端引擎根目录"kbengine/"之下，如下图：
-![demo_configure](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/kebengine_demo_assert_copy.png)
+![demo_configure](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/kebengine_demo_assert_copy.png)
 
 	4. 通过服务端资产库生成KBE客户端插件（可选，默认已经带有一份，除非服务器有相关改动才需要再次生成）
 		1: 双击运行 kbengine/kbengine_demos_asset/gensdk.bat
@@ -43,7 +43,7 @@ http://www.kbengine.org
 
 ## 配置Demo(可选):
 	改变登录IP地址与端口（注意：关于服务端端口部分参看http://www.kbengine.org/cn/docs/installation.html）:
-![demo_configure](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/spacecraft_unity_config.png)
+![demo_configure](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/spacecraft_unity_config.png)
 
 ## 启动服务器:
 
@@ -61,11 +61,11 @@ http://www.kbengine.org
         
 ## Spacecraft截图
 
-![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/login.png)
-![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/pick.png)
-![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/fight1.png)
-![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/fight2.jpg)
-![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/tree/master/img/screenshots/settle.png)
+![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/login.png)
+![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/pick.png)
+![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/fight1.png)
+![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/fight2.jpg)
+![Spacecraft项目运行效果](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/settle.png)
 
 
 
