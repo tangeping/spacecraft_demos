@@ -26,19 +26,19 @@ http://www.kbengine.org
 			https://github.com/kbengine/kbengine/releases/latest
 
 		编译(KBEngine)：
-			http://www.kbengine.org/docs/build.html
+			https://www.comblockengine.com/docs/1.0/install/index/
 
 		安装(KBEngine)：
-			http://www.kbengine.org/docs/installation.html
+			https://www.comblockengine.com/docs/1.0/install/index/
 
-	3. 拷贝服务端资产库"kbengine_spaceship_demos_assets"到服务端引擎根目录"kbengine/"之下，如下图：
+	2. 拷贝服务端资产库"kbengine_spaceship_demos_assets"到服务端引擎根目录"kbengine/"之下，如下图：
 ![demo_configure](https://github.com/tangeping/spacecraft_demos/raw/master/img/screenshots/kebengine_demo_assert_copy.png)
 
-	4. 通过服务端资产库生成KBE客户端插件（可选，默认已经带有一份，除非服务器有相关改动才需要再次生成）
+	3. 通过服务端资产库生成KBE客户端插件（可选，默认已经带有一份，除非服务器有相关改动才需要再次生成）
 		1: 双击运行 kbengine/kbengine_demos_asset/gensdk.bat
 		2: 拷贝kbengine_unity3d_plugins到kbengine_unity3d_SpaceShip_demo\Assets\Plugins\            
 
-    5.安装方法参考：https://github.com/kbengine/kbengine_unity3d_demo readme中描述的服务器kbengine_demos_assets直接用kbengine_spaceship_demos_assets替代即可
+    4.安装方法参考：https://github.com/kbengine/kbengine_unity3d_demo readme中描述的服务器kbengine_demos_assets直接用kbengine_spaceship_demos_assets替代即可
         
 
 ## 配置Demo(可选):
