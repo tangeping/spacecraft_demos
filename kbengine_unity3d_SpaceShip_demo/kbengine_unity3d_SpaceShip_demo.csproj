@@ -224,6 +224,9 @@
     <Reference Include="Excel">
       <HintPath>Assets/Plugins/conf_plugins/Excel.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Plugins/conf_plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data">
       <HintPath>Assets/Plugins/conf_plugins/System.Data.dll</HintPath>
     </Reference>
@@ -241,9 +244,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/dev_001/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/Plugins/conf_plugins/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -270,6 +270,8 @@
     <Compile Include="Assets\Scenes\test\testMgr.cs" />
     <Compile Include="Assets\Scripts\com_scripts\CSVHelper.cs" />
     <Compile Include="Assets\Scripts\com_scripts\Logout.cs" />
+    <Compile Include="Assets\Scripts\com_scripts\playerData.cs" />
+    <Compile Include="Assets\Scripts\com_scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\com_scripts\Trans.cs" />
     <Compile Include="Assets\Scripts\conf_scripts\conf_base.cs" />
     <Compile Include="Assets\Scripts\conf_scripts\conf_bullet.cs" />
@@ -286,7 +288,6 @@
     <Compile Include="Assets\Scripts\u3d_scripts\Entity\WeaponEntity.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\explode\explode.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\loginUI.cs" />
-    <Compile Include="Assets\Scripts\u3d_scripts\playerData.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\progressbar\BulletBar.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\progressbar\EnemyUiHP.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\progressbar\ExpBar.cs" />
@@ -305,7 +306,6 @@
     <Compile Include="Assets\Scripts\u3d_scripts\shipControl\IShipController.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\shipControl\keyController.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\shipControl\KeyMap.cs" />
-    <Compile Include="Assets\Scripts\u3d_scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\weapon\FireCondition.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\weapon\FireWeapon.cs" />
     <Compile Include="Assets\Scripts\u3d_scripts\weapon\WeaponAttri.cs" />
