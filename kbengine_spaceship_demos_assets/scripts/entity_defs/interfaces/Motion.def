@@ -1,0 +1,41 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<moveSpeed>
+			<Type>			UINT16			</Type> <!-- 使用时要缩放10倍, 最高25.5米每秒 -->
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		50			</Default>
+		</moveSpeed>
+
+		<cruiseSpeed>
+			<Type>			UINT16			</Type> <!-- 使用时要缩放100倍, 最高655.35米每秒 -->
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</cruiseSpeed>
+
+		<isMoving>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</isMoving>
+
+		<nextMoveTime>
+			<Type>			UINT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</nextMoveTime>
+	</Properties>
+
+	<CellMethods>
+		<setCruiseSpeed>
+			<Exposed/>
+			<Arg>			UINT16				</Arg>	<!-- name -->
+		</setCruiseSpeed>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+

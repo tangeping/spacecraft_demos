@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+
+
+datas = {
+        20001001:{'id':20001001 ,'name':'补给箱1' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001001, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001002:{'id':20001002 ,'name':'补给箱2' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001002, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001003:{'id':20001003 ,'name':'补给箱3' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001003, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001004:{'id':20001004 ,'name':'补给箱4' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001004, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001005:{'id':20001005 ,'name':'补给箱5' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001005, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001006:{'id':20001006 ,'name':'补给箱6' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001006, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001007:{'id':20001007 ,'name':'补给箱7' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001007, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001008:{'id':20001008 ,'name':'补给箱8' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001008, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001009:{'id':20001009 ,'name':'补给箱9' , 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001009, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        20001010:{'id':20001010 ,'name':'补给箱10', 'runSpeed':0, 'entityType':'SupplyBox', 'moveSpeed':0, 'dialogID': 0,'modelID':20001010, 'hpDamage':0,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':80, 'etype': 1,'cd':1,'attackScale':4,'attackDis':0,'destroyTime':50,"explodeTime":1},
+
+        10001001:{'id':10001001 ,'name':'太空雷1' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001001, 'hpDamage':10,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001002:{'id':10001002 ,'name':'太空雷2' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001002, 'hpDamage':10,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001003:{'id':10001003 ,'name':'太空雷3' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001003, 'hpDamage':10,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001004:{'id':10001004 ,'name':'太空雷4' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001004, 'hpDamage':10,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001005:{'id':10001005 ,'name':'太空雷5' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001005, 'hpDamage':10,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001006:{'id':10001006 ,'name':'太空雷6' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001006, 'hpDamage':20,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001007:{'id':10001007 ,'name':'太空雷7' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001007, 'hpDamage':20,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001008:{'id':10001008 ,'name':'太空雷8' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001008, 'hpDamage':20,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001009:{'id':10001009 ,'name':'太空雷9' , 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001009, 'hpDamage':20,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+        10001010:{'id':10001010 ,'name':'太空雷10', 'runSpeed':0, 'entityType':'Mine'      , 'moveSpeed':0, 'dialogID': 0,'modelID':10001010, 'hpDamage':20,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 2,'cd':1,'attackScale':8,'attackDis':0,'destroyTime':50,"explodeTime":1},
+
+        10001:{'id':10001,'name':'子弹'   , 'runSpeed':100, 'entityType':'Weapon', 'moveSpeed':0, 'dialogID': 0,'modelID':10001, 'hpDamage':5  ,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 3,'cd':1,'attackScale':2,'range_x':1,'range_z':1,'attackDis':2,'destroyTime':20,'explodeTime':1,'delayBornTime':321},
+        20001:{'id':20001,'name':'导弹'   , 'runSpeed':200, 'entityType':'Weapon', 'moveSpeed':0, 'dialogID': 0,'modelID':20001, 'hpDamage':10 ,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 3,'cd':2,'attackScale':2,'range_x':1,'range_z':1,'attackDis':4,'destroyTime':20,'explodeTime':1,'delayBornTime':414},
+        30001:{'id':30001,'name':'电磁炮', 'runSpeed':300, 'entityType':'Weapon', 'moveSpeed':0, 'dialogID': 0,'modelID':30001, 'hpDamage':40 ,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 3,'cd':3,'attackScale':16,'range_x':6,'range_z':8,'attackDis':6,'destroyTime':20,'explodeTime':1,'delayBornTime':350},
+        40001:{'id':40001,'name':'激光'   , 'runSpeed':0, 'entityType':'Weapon', 'moveSpeed':0, 'dialogID': 0,'modelID':40001, 'hpDamage':80 ,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 3,'cd':4,'attackScale':400,'range_x':12,'range_z':200,'attackDis':8,'destroyTime':2,'explodeTime':2,'delayBornTime':350},
+        50001:{'id':50001,'name':'核能炸弹', 'runSpeed':400, 'entityType':'Weapon', 'moveSpeed':0, 'dialogID': 0,'modelID':50001, 'hpDamage':400,'mpDamage':0,'hpAdd':0,'mpAdd':0,'expAdd':0, 'etype': 3,'cd':10,'attackScale':400,'range_x':200,'range_z':200,'attackDis':400,'destroyTime':30,'explodeTime':1,'delayBornTime':350}
+        }
+
+allDatas = {
+
+    '物品表':datas
+}
