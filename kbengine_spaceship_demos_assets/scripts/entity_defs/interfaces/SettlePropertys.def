@@ -1,0 +1,90 @@
+<root>
+    <Properties>
+        <Round>
+            <Type>          ROUND               </Type>
+            <Utype>         48001               </Utype>
+            <Flags>         OWN_CLIENT         </Flags>
+            <Default>       0                   </Default>
+        </Round>
+
+        <Round_Max>
+            <Type>          ROUND               </Type>
+            <Utype>         48002               </Utype>
+            <Flags>         OWN_CLIENT         </Flags>
+            <Default>       0                   </Default>
+        </Round_Max>
+
+        <Rank>
+            <Type>          UINT32                  </Type>
+            <Utype>         48003                   </Utype>
+            <Flags>         OWN_CLIENT             </Flags>
+            <Default>       0                       </Default>
+        </Rank>
+
+        <Score>
+            <Type>          UINT32                  </Type>
+            <Utype>         48004                   </Utype>
+            <Flags>         OWN_CLIENT             </Flags>
+            <Default>       0                       </Default>
+        </Score>
+
+        <Die_Count>
+            <Type>          UINT32                  </Type>
+            <Utype>         48005                   </Utype>
+            <Flags>         OWN_CLIENT             </Flags>
+            <Default>       0                       </Default>
+        </Die_Count>
+
+        <Kill_Count>
+            <Type>          UINT32              </Type>
+            <Utype>         48006               </Utype>
+            <Flags>         OWN_CLIENT         </Flags>
+            <Default>       0                   </Default>
+        </Kill_Count>
+
+    </Properties>
+
+    <CellMethods>
+        <setRound>
+            <Arg>           ROUND              </Arg>
+        </setRound>
+
+        <setRoundMax>
+            <Arg>           ROUND              </Arg>
+        </setRoundMax>
+
+        <setRank>
+            <Arg>           UINT32              </Arg>
+        </setRank>
+
+        <setScore>
+            <Arg>           UINT32              </Arg>
+        </setScore>
+
+        <setDieCount>
+            <Arg>           UINT32              </Arg>
+        </setDieCount>
+
+        <setKillCount>
+            <Arg>           UINT32              </Arg>
+        </setKillCount>
+
+        <addRound>
+            <Arg>           INT32              </Arg>
+        </addRound>
+
+        <addScore>
+            <Arg>           INT32              </Arg>
+        </addScore>
+
+        <addDieCount>
+            <Arg>           INT32              </Arg>
+        </addDieCount>
+
+        <addKillCount>
+            <Arg>           INT32              </Arg>
+        </addKillCount>
+
+    </CellMethods>
+</root>
+

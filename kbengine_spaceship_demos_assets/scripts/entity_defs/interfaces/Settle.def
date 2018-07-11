@@ -1,0 +1,17 @@
+<root>
+
+    <Interfaces>
+        <Interface>             SettlePropertys         </Interface>
+    </Interfaces>
+
+    <Properties>
+    </Properties>
+
+    <CellMethods>
+
+    </CellMethods>
+
+    <ClientMethods>
+    </ClientMethods>
+</root>
+

@@ -1,0 +1,79 @@
+<root>
+    <Properties>
+        <HP>
+            <Type>          HP              </Type>
+            <Utype>         47001               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </HP>
+
+        <HP_Max>
+            <Type>          HP              </Type>
+            <Utype>         47002               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </HP_Max>
+
+        <MP>
+            <Type>          MP              </Type>
+            <Utype>         47003               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </MP>
+
+        <MP_Max>
+            <Type>          MP              </Type>
+            <Utype>         47004               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </MP_Max>
+
+        <EXP>
+            <Type>          EXP              </Type>
+            <Utype>         47005               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </EXP>
+
+        <EXP_Max>
+            <Type>          EXP              </Type>
+            <Utype>         47006               </Utype>
+            <Flags>         ALL_CLIENTS         </Flags>
+            <Persistent>    true                    </Persistent>
+            <Default>       0               </Default>
+        </EXP_Max>
+
+    </Properties>
+
+    <CellMethods>
+        <addHP>
+            <Arg>           HP              </Arg>
+        </addHP>
+
+        <addMP>
+            <Arg>           MP              </Arg>
+        </addMP>
+
+        <setHP>
+            <Arg>           HP              </Arg>
+        </setHP>
+
+        <setMP>
+            <Arg>           MP              </Arg>
+        </setMP>
+
+        <setHPMax>
+            <Arg>           HP              </Arg>
+        </setHPMax>
+
+        <setMPMax>
+            <Arg>           MP              </Arg>
+        </setMPMax>
+    </CellMethods>
+</root>
+

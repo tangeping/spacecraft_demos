@@ -1,0 +1,29 @@
+<root>
+
+    <Properties>
+    </Properties>
+
+
+    <CellMethods>
+        <reqUseWeapon>
+            <Exposed/>
+            <Utype> 61001 </Utype>
+            <Arg>       POSITION3D      </Arg>
+            <Arg>       DIRECTION3D     </Arg>
+            <Arg>       POSITION3D      </Arg>
+            <Arg>       WEAPONID        </Arg>
+        </reqUseWeapon>
+
+
+    </CellMethods>
+
+    <ClientMethods>
+        <canUseWeaponResult>
+            <Utype>         61003               </Utype>
+            <Arg>           UINT16               </Arg>
+            <Arg>           BOOL                </Arg>
+        </canUseWeaponResult>
+
+    </ClientMethods>
+
+</root>
