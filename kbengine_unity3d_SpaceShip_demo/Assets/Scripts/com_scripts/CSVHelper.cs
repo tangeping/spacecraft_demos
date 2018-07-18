@@ -46,10 +46,10 @@ public class CSVHelper : Singleton<CSVHelper>
             Unity.Logout.Log("LoadOneExcel:table:"+table);
             return -1;
         }
-        
-        if(file_conf[table].init)
+
+        if (conf_dic.ContainsKey(table))
         {
-            Unity.Logout.Log("LoadOneExcel:file_conf[table].init:" + table + ",init:"+ file_conf[table].init);
+            Unity.Logout.Log("LoadOneExcel:conf_dic[table].init:" + table);
             return 0;
         }
 
@@ -96,15 +96,15 @@ public class CSVHelper : Singleton<CSVHelper>
             return null;
         }
 
-        if(file_conf[table].init)
+        if(conf_dic.ContainsKey(table))
         {
-            if(conf_dic.ContainsKey(table)&& conf_dic[table].ContainsKey(nID))
+            if(conf_dic[table].ContainsKey(nID))
             {
                 return conf_dic[table][nID];
             }
             else
             {
-                Debug.LogError("conf_dic not found " + table);
+                Debug.LogError( table + " not found nID " + nID);
                 return null;
             }
         }
@@ -142,17 +142,10 @@ public class CSVHelper : Singleton<CSVHelper>
             return null;
         }
 
-        if (file_conf[table].init)
+
+        if (conf_dic.ContainsKey(table))
         {
-            if (conf_dic.ContainsKey(table))
-            {
-                return conf_dic[table];
-            }
-            else
-            {
-                Debug.LogError("conf_dic not found " + table);
-                return null;
-            }
+            return conf_dic[table];
         }
         else
         {
